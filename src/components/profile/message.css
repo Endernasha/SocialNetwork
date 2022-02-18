@@ -1,0 +1,22 @@
+.chat{
+    display: grid;
+    grid-template-areas: 
+    "n p"
+    ;
+    margin: 10px;
+}
+.pos{
+    background-color: rgb(105, 97, 214);
+    border-radius: 10px;
+    grid-area: p;
+    padding: 15px;
+    
+}
+.name{
+    grid-area: n;
+    text-align: center;
+    padding: 15px;
+}
+.posting{
+    text-align: center;
+}
